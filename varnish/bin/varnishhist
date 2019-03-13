@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/MAMP/htdocs/bitnami-jgryn-network/scripts/setenv.sh
+
+exec /Applications/MAMP/htdocs/bitnami-jgryn-network/varnish/bin/.varnishhist.bin -n /Applications/MAMP/htdocs/bitnami-jgryn-network/varnish/var/varnish "$@"
