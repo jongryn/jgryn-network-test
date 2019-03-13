@@ -1,5 +1,0 @@
-#!/bin/sh
-
-. /Applications/MAMP/htdocs/bitnami-jgryn-network/scripts/setenv.sh
-
-exec /Applications/MAMP/htdocs/bitnami-jgryn-network/php/sbin/.php-fpm.bin -y /Applications/MAMP/htdocs/bitnami-jgryn-network/php/etc/php-fpm.conf -p /Applications/MAMP/htdocs/bitnami-jgryn-network/php/var/ -c /Applications/MAMP/htdocs/bitnami-jgryn-network/php/etc/php.ini "$@"

@@ -1,6 +1,0 @@
-#!/bin/sh
-
-. /Applications/MAMP/htdocs/bitnami-jgryn-network/scripts/setenv.sh
-SASL_PATH="/Applications/MAMP/htdocs/bitnami-jgryn-network/common/lib/sasl2"
-                export SASL_PATH
-exec /Applications/MAMP/htdocs/bitnami-jgryn-network/common/sbin/.saslauthd.bin -f "/Applications/MAMP/htdocs/bitnami-jgryn-network/common/etc/sasldb2" "$@"
