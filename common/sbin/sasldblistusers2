@@ -1,6 +1,0 @@
-#!/bin/sh
-
-. /Applications/MAMP/htdocs/jgryn-network-test/scripts/setenv.sh
-SASL_PATH="/Applications/MAMP/htdocs/jgryn-network-test/common/lib/sasl2"
-                export SASL_PATH
-exec /Applications/MAMP/htdocs/jgryn-network-test/common/sbin/.sasldblistusers2.bin -f "/Applications/MAMP/htdocs/jgryn-network-test/common/etc/sasldb2" "$@"

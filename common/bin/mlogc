@@ -1,5 +1,0 @@
-#!/bin/sh
-
-. /Applications/MAMP/htdocs/jgryn-network-test/scripts/setenv.sh
-
-exec /Applications/MAMP/htdocs/jgryn-network-test/common/bin/.mlogc.bin  "$@"

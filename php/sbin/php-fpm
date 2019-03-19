@@ -1,5 +1,0 @@
-#!/bin/sh
-
-. /Applications/MAMP/htdocs/jgryn-network-test/scripts/setenv.sh
-
-exec /Applications/MAMP/htdocs/jgryn-network-test/php/sbin/.php-fpm.bin -y /Applications/MAMP/htdocs/jgryn-network-test/php/etc/php-fpm.conf -p /Applications/MAMP/htdocs/jgryn-network-test/php/var/ -c /Applications/MAMP/htdocs/jgryn-network-test/php/etc/php.ini "$@"

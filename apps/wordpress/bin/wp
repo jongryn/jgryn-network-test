@@ -1,6 +1,0 @@
-#!/bin/bash
-. /Applications/MAMP/htdocs/jgryn-network-test/scripts/setenv.sh
-export WP_CLI_CONFIG_PATH="/Applications/MAMP/htdocs/jgryn-network-test/apps/wordpress/bin/wp-cli.yml"
-export WP_CLI_PHP_USED="/Applications/MAMP/htdocs/jgryn-network-test/php/bin/php"
-
-exec "/Applications/MAMP/htdocs/jgryn-network-test/php/bin/php" "/Applications/MAMP/htdocs/jgryn-network-test/apps/wordpress/bin/wp-cli.phar" "$@"
