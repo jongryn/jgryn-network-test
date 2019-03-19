@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Applications/MAMP/htdocs/jgryn-network-test/apps/wordpress/bin:/Applications/MAMP/htdocs/jgryn-network-test/varnish/bin:/Applications/MAMP/htdocs/jgryn-network-test/sqlite/bin:/Applications/MAMP/htdocs/jgryn-network-test/php/bin:/Applications/MAMP/htdocs/jgryn-network-test/mysql/bin:/Applications/MAMP/htdocs/jgryn-network-test/apache2/bin:/Applications/MAMP/htdocs/jgryn-network-test/common/bin:$PATH"
+BITNAMI_ROOT="/Applications/MAMP/htdocs/jgryn-network-test"
+export BITNAMI_ROOT
+
+
+exec /bin/bash --noprofile --norc

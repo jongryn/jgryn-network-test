@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/Applications/MAMP/htdocs/jgryn-network-test/common/include -arch x86_64"; export CFLAGS
+CPPFLAGS="-I/Applications/MAMP/htdocs/jgryn-network-test/common/include"; export CPPFLAGS
+LDFLAGS="-L/Applications/MAMP/htdocs/jgryn-network-test/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/Applications/MAMP/htdocs/jgryn-network-test/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/Applications/MAMP/htdocs/jgryn-network-test/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/Applications/MAMP/htdocs/jgryn-network-test/common/bin/apr-1-config" \
+"--with-apu=/Applications/MAMP/htdocs/jgryn-network-test/common/bin/apr-1-config" \
+"--with-pcre=/Applications/MAMP/htdocs/jgryn-network-test/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/Applications/MAMP/htdocs/jgryn-network-test/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/Applications/MAMP/htdocs/jgryn-network-test/common/include -arch x86_64" \
+"LDFLAGS=-L/Applications/MAMP/htdocs/jgryn-network-test/common/lib -liconv" \
+"CPPFLAGS=-I/Applications/MAMP/htdocs/jgryn-network-test/common/include" \
+"$@"

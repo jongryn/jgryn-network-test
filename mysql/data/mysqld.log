@@ -1,0 +1,11 @@
+2019-03-19T19:16:07.6NZ mysqld_safe Logging to '/Applications/MAMP/htdocs/jgryn-network-test/mysql/data/mysqld.log'.
+2019-03-19T19:16:07.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/MAMP/htdocs/jgryn-network-test/mysql/data
+2019-03-19T19:16:07.880906Z 0 [System] [MY-010116] [Server] /Applications/MAMP/htdocs/jgryn-network-test/mysql/bin/mysqld.bin (mysqld 8.0.15) starting as process 22167
+2019-03-19T19:16:07.886573Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-03-19T19:16:07.886583Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_general_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-03-19T19:16:08.348394Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-03-19T19:16:08.371458Z 0 [System] [MY-010931] [Server] /Applications/MAMP/htdocs/jgryn-network-test/mysql/bin/mysqld.bin: ready for connections. Version: '8.0.15'  socket: '/Applications/MAMP/htdocs/jgryn-network-test/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server - GPL.
+2019-03-19T19:16:09.514862Z 0 [ERROR] [MY-011292] [Server] Plugin mysqlx reported: 'Preparation of I/O interfaces failed, X Protocol won't be accessible'
+2019-03-19T19:16:09.514967Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of bind-address: '*' port: 33060 failed, `bind()` failed with error: Address already in use (48). Do you already have another mysqld server running with Mysqlx ?'
+2019-03-19T19:16:09.515038Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/tmp/mysqlx.sock' failed, another process with PID 1419 is using UNIX socket file'
+2019-03-19T19:16:09.515085Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. 

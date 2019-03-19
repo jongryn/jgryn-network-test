@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/MAMP/htdocs/jgryn-network-test/scripts/setenv.sh
+
+exec /Applications/MAMP/htdocs/jgryn-network-test/varnish/bin/.varnishstat.bin -n /Applications/MAMP/htdocs/jgryn-network-test/varnish/var/varnish "$@"

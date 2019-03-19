@@ -1,0 +1,20 @@
+[Tue Mar 19 12:16:30.316943 2019] [ssl:warn] [pid 22203] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:30.320224 2019] [ssl:warn] [pid 22203] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:30.356581 2019] [ssl:warn] [pid 22204] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:30.357587 2019] [ssl:warn] [pid 22204] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:30.447374 2019] [mpm_prefork:notice] [pid 22204] AH00163: Apache/2.4.38 (Unix) OpenSSL/1.0.2q PHP/7.2.16 configured -- resuming normal operations
+[Tue Mar 19 12:16:30.447458 2019] [core:notice] [pid 22204] AH00094: Command line: '/Applications/MAMP/htdocs/jgryn-network-test/apache2/bin/httpd.bin -f /Applications/MAMP/htdocs/jgryn-network-test/apache2/conf/httpd.conf'
+[Tue Mar 19 12:16:37.357164 2019] [mpm_prefork:notice] [pid 22204] AH00169: caught SIGTERM, shutting down
+[Tue Mar 19 12:16:39.959518 2019] [ssl:warn] [pid 22252] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:39.960317 2019] [ssl:warn] [pid 22252] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:39.995921 2019] [ssl:warn] [pid 22253] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:39.996531 2019] [ssl:warn] [pid 22253] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:40.016569 2019] [mpm_prefork:notice] [pid 22253] AH00163: Apache/2.4.38 (Unix) OpenSSL/1.0.2q PHP/7.2.16 configured -- resuming normal operations
+[Tue Mar 19 12:16:40.016894 2019] [core:notice] [pid 22253] AH00094: Command line: '/Applications/MAMP/htdocs/jgryn-network-test/apache2/bin/httpd.bin -f /Applications/MAMP/htdocs/jgryn-network-test/apache2/conf/httpd.conf'
+[Tue Mar 19 12:16:50.943635 2019] [mpm_prefork:notice] [pid 22253] AH00169: caught SIGTERM, shutting down
+[Tue Mar 19 12:16:53.597976 2019] [ssl:warn] [pid 22343] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:53.598826 2019] [ssl:warn] [pid 22343] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:53.638691 2019] [ssl:warn] [pid 22344] AH01882: Init: this version of mod_ssl was compiled against a newer library (OpenSSL 1.0.2r  26 Feb 2019, version currently loaded is OpenSSL 1.0.2q  20 Nov 2018) - may result in undefined or erroneous behavior
+[Tue Mar 19 12:16:53.639398 2019] [ssl:warn] [pid 22344] AH01909: localhost:8444:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 19 12:16:53.659561 2019] [mpm_prefork:notice] [pid 22344] AH00163: Apache/2.4.38 (Unix) OpenSSL/1.0.2q PHP/7.2.16 configured -- resuming normal operations
+[Tue Mar 19 12:16:53.659648 2019] [core:notice] [pid 22344] AH00094: Command line: '/Applications/MAMP/htdocs/jgryn-network-test/apache2/bin/httpd.bin -f /Applications/MAMP/htdocs/jgryn-network-test/apache2/conf/httpd.conf'

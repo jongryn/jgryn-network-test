@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Applications/MAMP/htdocs/jgryn-network-test/apache2/bin/envvars
+exec /Applications/MAMP/htdocs/jgryn-network-test/apache2/bin/rotatelogs.bin "$@"
